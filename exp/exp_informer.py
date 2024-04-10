@@ -69,7 +69,7 @@ class Exp_Informer(Exp_Basic):
             'ECL':Dataset_Custom,
             'Solar':Dataset_Custom,
             'custom':Dataset_Custom,
-            'curve1':CurvesOT1
+            'curve1':Curves_OT1
         }
         Data = data_dict[self.args.data]
         timeenc = 0 if args.embed!='timeF' else 1
