@@ -377,7 +377,7 @@ class Dataset_Pred(Dataset):
 
     def inverse_transform(self, data):
         return self.scaler.inverse_transform(data)
-class CurvesOT1(Dataset):
+class Curves_OT1(Dataset):
     def __init__(self, root_path, flag='train', size, features, 
                  data_path='CurvesOT1.csv', target='OT1', scale=True, 
                  inverse=False, timeenc=0, freq='h', cols=None):
